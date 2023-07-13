@@ -1,7 +1,6 @@
 {
-  "name": "nft-landing",
+  "name": "gulp",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
@@ -11,7 +10,7 @@
     "zip": "gulp deployZIP --build",
     "deploy": "gulp deployFTP --build"
   },
-  "author": "",
+  "author": "Marian Strilets",
   "license": "ISC",
   "devDependencies": {
     "aos": "^2.3.4",
@@ -45,5 +44,6 @@
     "webp-converter": "2.2.3",
     "webpack": "latest",
     "webpack-stream": "latest"
-  }
+  },
+  "description": ""
 }
